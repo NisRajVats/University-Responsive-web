@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,600;0,700;1,200&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/srm-logo-white.webp"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Couse</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>ABOUT US</h1>
+    </section>
+<!-- -----------about us content-----------
+    - -->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>WE ARE WORLD'S LARGEST UNIVERSITY</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae numquam dolore nihil alias ut facilis quisquam enim ab. Adipisci nisi quae expedita vitae aperiam ducimus nam odio beatae nostrum, saepe rerum possimus neque, aut quam aliquid rem fuga. Velit eligendi illum nihil aut vitae quia modi nam ipsa, laboriosam esse error, recusandae voluptatem? Natus maxime excepturi,  
+                </p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW.....</a>
+            </div>
+            <div class="about-col">
+                <img src="images/meetings.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- ------------footer---------- -->
+
+
+
+
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nihil beatae placeat ipsa officiis
+            <br>enim
+            aperiam consequatur quibusdam architecto adipisci, laborum culpa eveniet ipsum nam optio expedita
+            ratione
+            qui tempore.
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- --------JavaScript for toggle menu------------ -->
+    <script>
+        var navlinks = document.getElementById("navlinks")
+        function showMenu() {
+            navlinks.style.right = "0";
+        }
+        function hideMenu() {
+            navlinks.style.right = "-200";
+        }
+    </script>
+</body>
+
+</html>
